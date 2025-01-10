@@ -1,0 +1,109 @@
+{
+  "courses": [
+    {
+      "id": "0",
+      "title": "Java courses",
+      "Instructor": "Imran sir",
+      "Duration": "4 Months",
+      "status": "Not Active"
+    },
+    {
+      "id": "1",
+      "title": "Full Stack MERN",
+      "Instructor": "Rushikesh sir",
+      "Duration": "9 Months",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "title": "Python",
+      "Instructor": "Dev sir",
+      "Duration": "4 Months",
+      "status": "Not Active"
+    },
+    {
+      "id": "3",
+      "title": "React",
+      "Instructor": "Rushikesh sir",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "title": "Angular",
+      "Instructor": "Imran sir",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "title": "Node",
+      "Instructor": "Dev sir",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "title": "MongoDB",
+      "Instructor": "Rushikesh sir",
+      "Duration": "3 Months",
+      "status": "Not Active"
+    },
+    {
+      "id": "7",
+      "title": "Express",
+      "Instructor": "Imran sir",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "title": "JavaScript",
+      "Instructor": "Dev sir",
+      "Duration": "3 Months",
+      "status": "Not Active"
+    },
+    {
+      "id": "9",
+      "title": "HTML",
+      "Instructor": "Rushikesh sir",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "10",
+      "title": "CSS",
+      "Instructor": "Imran sir",
+      "Duration": "3 Months",
+      "status": "Not Active"
+    },
+    {
+      "id": "11",
+      "title": "Data analysis",
+      "Instructor": "Dev sir",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "12",
+      "title": "Data Science",
+      "Instructor": "Uzma mam",
+      "Duration": "3 Months",
+      "status": "Active"
+    },
+    {
+      "id": "13",
+      "title": "Interview preparation",
+      "Instructor": "Anil sir",
+      "Duration": "3 Months",
+      "status": "Not Active"
+    },
+    {
+      "id": "1826",
+      "title": "Java Devloper",
+      "Instructor": "Rushikesh sir",
+      "Duration": "8 Months",
+      "status": "Active"
+    }
+  ]
+}
