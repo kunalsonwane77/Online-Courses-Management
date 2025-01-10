@@ -39,6 +39,42 @@ function Coursecontextprovider({ children }) {
                     return el
                 })
 
+            case "update":
+                fetch(`http://localhost:3000/courses/${action.payload.upid}`, {
+                    method: "PUT",
+                    body: JSON.stringify(action.payload.updtadata),
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+
+                })
+                alert("updation success")
+            case "delete" :
+                 fetch(`http://localhost:3000/courses/${action.payload}`,{
+                    method:"DELETE"
+                 })
+             return state.filter((el)=>{
+                 return el.id!==action.payload
+             })  
+             
+
+             case "filter":
+              if(action.payload.val=="active"){
+                let acdata= action.payload.actualdata.filter((el)=>{
+                    return el.status=="Active"
+                })
+                return acdata
+              }
+              else if(action.payload.val=="notactive"){
+                let notactive= action.payload.actualdata.filter((el)=>{
+                    return el.status=="Not Active"
+                })
+                return notactive
+              }
+              else{
+                return action.payload.actualdata
+              }
+
         }
 
     }

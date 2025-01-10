@@ -22,11 +22,15 @@ function Home() {
   
 
   return (
+    <>
+      <h1 className='text-3xl text-center p-5 text-cyan-700 font-semibold'>Find And Manage Your Course </h1>
     <div className='grid grid-cols-3'>
-       {courses.map((el)=>{
+       {courses?.map((el)=>{
         return <Coursecard key={el.id} id={el.id} title={el.title} instructor={el.Instructor} Duration={el.Duration} status={el.status} />
        })}
     </div>
+    </>
+   
   )
 }
 

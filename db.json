@@ -4,7 +4,7 @@
       "id": "0",
       "title": "Java courses",
       "Instructor": "Imran sir",
-      "Duration": "4 Months",
+      "Duration": "8 Months",
       "status": "Not Active"
     },
     {
@@ -81,13 +81,6 @@
       "id": "11",
       "title": "Data analysis",
       "Instructor": "Dev sir",
-      "Duration": "3 Months",
-      "status": "Active"
-    },
-    {
-      "id": "12",
-      "title": "Data Science",
-      "Instructor": "Uzma mam",
       "Duration": "3 Months",
       "status": "Active"
     },
