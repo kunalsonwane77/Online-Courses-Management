@@ -14,7 +14,7 @@ function Coursecard({title,Duration,status,instructor,id}) {
   }
 
   return (
-    <div className='w-[300px] border-2 h-[300px] mt-4 mx-auto rounded-md text-center hover:scale-105 duration-200'>
+    <div className='w-[300px] border-2 h-[300px] mt-4 mx-auto rounded-xl text-center hover:scale-105 duration-200 bg-[url("https://img.freepik.com/premium-photo/frame-notepads-colored-pencils-watercolors-pen-blue-background-copy-space_121837-5170.jpg?semt=ais_hybrid")] bg-contain'>
          
         <h1 className='font-medium text-2xl mt-2 p-3'>{title}</h1>
         <p className='m-3'> Duration : {Duration}</p>
